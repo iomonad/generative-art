@@ -1,18 +1,18 @@
-# animation
+# Generative Experiments
 
-A Quil sketch designed to ... well, that part is up to you.
+## How to run ?
 
-## Usage
+In Emacs - run cider, open `core.clj` and press `C-c C-k` to evaluate the file.
+In REPL - run `(require 'animation.drawbookname)`.
 
-LightTable - open `core.clj` and press `Ctrl+Shift+Enter` to evaluate the file.
+## Drawbooks
 
-Emacs - run cider, open `core.clj` and press `C-c C-k` to evaluate the file.
-
-REPL - run `(require 'animation.core)`.
+### Mandelbrot
+	TBD
 
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2020 iomonad
 
 Distributed under the Eclipse Public License either version 1.0 or (at
 your option) any later version.
