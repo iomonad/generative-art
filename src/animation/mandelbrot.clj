@@ -39,12 +39,10 @@
       (let [c (scale-pixel-to-complex [x y] (:center state) (:width state) w)
             mycolor (escape-to-color (escape-number-loop c 100) 100)]
         (aset-int pxl (+ x (* y w)) mycolor)))
-    (q/update-pixels))
-  )
+    (q/update-pixels)))
 
 (q/defsketch mandelbrot-clj
-  :title "FRACTALS"
-  :size [500 500]
+  :size [1000 1000]
   :setup setup
   :update update-state
   :draw draw-state
